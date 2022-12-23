@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(252, 169, 180);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(243, 70, 243);
+    font-size: 3rem;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(243, 53, 53);
+    font-size: 2rem;
+}
+header> img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+}
+ul a{
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    width: 50%;
+    text-align: center;
+}
+ul a:hover{
+    color: rgb(247, 41, 41);
+}
+section{
+    display: flex;
+}
+article{
+    flex: 1;
+}
+footer{
+    display: flex;
+}
+footer div{
+    flex: 1;
+}
+div>img{
+    width: 10rem;
+}
+.desc{
+    display: block;
+    width: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+article:hover{
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+.ad{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40rem;
+}
